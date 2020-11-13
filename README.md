@@ -6,11 +6,11 @@ The implementation is divided into 2 classes in order to separate algorithmic an
 visual part. ``FieldGenerator`` creates data (mines, clues) and
 places them in a 2D-list. ``FieldVisualizer`` creates a colored board using the data.
 
-###Setup:
+### Setup:
 1. Install Python 3.7+
 2. ``pip3 install -r requirements.txt``
 
-###Usage:
+### Usage:
 
 ``python3 main.py -rows <X> -cols <Y> -mines <Z>``
 
